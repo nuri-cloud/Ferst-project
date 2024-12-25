@@ -7,24 +7,89 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header"></header>
-    
-
-
-
-    <section class="products"></section>
-    <section class="baner"></section>
-    <section class="section nuri"></section>
-    <section class="work">
-        <p class="text5">categories</p>
-                <div class="cotygory">
-                    <div class="BESTSELLER">
-                        <img src="./image/ring1.png" alt="">
-                        <p>BESTSELLER</p>
-                        <div>Trendy models of our experts, for the love of your life selected</div>
-                        <button>Discover now</button>
+    <header class="header container">
+        <div class="top-header">
+            <img src="./img/yrys.logo2.png" alt="">
+            <div class="icons-image">
+                <img src="./img/Google Play Badge.svg" alt="">
+                <div class="icons">
+                    <img id="kard" src="./img/Group.svg" alt="">
                     </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <p>Строй материал</p>
+                </li>    
+                <li>
+                    <p>Аксессуары</p>
+                </li>
+                <li>
+                    <p>Овощи</p>
+                </li>
+                <li>
+                    <p>Фрукты</p>
+                </li>
+                <li>
+                    <p>Бытовая техника</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="products"></section>
+        <section class="baner"></section>
+        <section class="section nuri"></section>
+        <section class="work"></section>
+        <section class="karusel">
+            <div class="swip">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" 
+                centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false" effect="fade">
+                navigation="true">
+                <swiper-slide>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1200px-Flag_of_Kyrgyzstan.svg.png" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkYOHAkjzre36zUg6JeS5M6joGUxaGm8QUPg&s" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </swiper-slide>
+              </swiper-container>
+            </div>
+            <div class="our">
+                <div class="kyr">
+                   <h1> 🇰🇬 Кыргызстан жөнүндө жалпы маалымат</h1>
+                    <p>Толук аталышы: Кыргыз Республикасы</p>
+                    <p>Борбор шаары: Бишкек</p>
+                    <p>Расмий тилдер: Кыргыз тили (мамлекеттик), орус тили (расмий)</p>    
+                    <p>Калкы: 7 миллионго жакын (2024-жылга карата)</p>    
+                    <p>Аянты: 199,951 км²</p>    
+                    <p>Акча бирдиги: Кыргыз сому (KGS)</p>    
+                    <p>Мамлекеттик түзүлүшү: Президенттик республика</p>  
+                    <p>Дини: Калктын басымдуу бөлүгү ислам динин тутат</p>   
                 </div>
-    </section>
+                <div>
+                    <h2>📍 Географиясы:</h2>
+                    <ul class="geo">
+                        <li>Борбор Азияда жайгашкан, коңшулары: Казакстан, Өзбекстан, Тажикстан жана Кытай.</li>
+                        <li>Өлкөнүн 90% тоолуу аймактардан турат (Теңир-Тоо жана Алай тоо кыркалары).</li>
+                        <li>Ысык-Көл – дүйнөдөгү эң чоң тузсуз көлдөрдүн бири. </li>
+                    </ul>
+                </div>
+          </div>
+            
+            
+        </section>
+    </main>
+    <footer class="footer">
+        footer
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
