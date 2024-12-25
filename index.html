@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
       }
     </style>
 </head>
+
 <body>
     <header class=" ml-[3px] relative drop-shadow-2xl">
         <div class=" w-[1300px] m-auto h-[70px]  bg-white bg-zinc-100 rounded-xl mt-[20px] ">
@@ -105,12 +107,33 @@
     <main class="main">
         <section class="products"></section>
         <section class="baner"></section>
-        <section class="section nuri"></section>
+        <section class="section-nuri">
+            <div class="background-section">
+                <div class="texst">
+                    <h1>Хотите посмотреть?</h1>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
+                </div>
+                <div class="input-container">
+                    <input id="name" type="text" placeholder="Ваше имя">
+                    <input id="phone" type="text" placeholder="Ваш телефон">
+                    <p>*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+                    <button onclick="handleSubmit()">Готово</button>
+                </div>
+                <div id="output"></div>
+                
+                
+            </div>
+            
+            
+        </section>
         <section class="work"></section>
+        <section class="bekbolsun"></section>
+        <section class="ELITA"></section>
     </main>
     <footer class="footer">
         footer
     </footer>
     <script src="./app.js"></script>
 </body>
+
 </html>
