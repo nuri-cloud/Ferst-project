@@ -1,0 +1,39 @@
+footer{
+    background-color: firebrick;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-footer img{
+    width: 100px;
+    height: 100px;
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-descr{
+    display: flex;
+    gap: 50px;
+}
+
+.social-medias img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    
+}
+
+.footer-icons-images {
+ 
+    gap: 20px;
+    position: absolute;
+    right: 200px;
+    margin-top: 20px;
+}
+
