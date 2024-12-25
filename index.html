@@ -5,13 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
 </head>
 <body>
-    <header class="header"></header>
-    
+    <header class=" ml-[3px] relative drop-shadow-2xl">
+        <div class=" w-[1300px] m-auto h-[70px]  bg-white bg-zinc-100 rounded-xl mt-[20px] ">
+            <div class="flex justify-between items-center py-[10px] ml-[20px]">
+                <div>
+                    <img class="w-[150px]" src="./img/yrys.logo2.png" alt="">
+                </div>
+                <div>
+                    <nav>
+                        <ul class="flex">
+                            <a href="./pages/About Seedra/About.html">
 
+                                <li class="mr-[20px]">ALL PRODUCTS</li>
+                            </a>
+                            
+                            
+                            <a href="./pages/All products/All produts.html">
 
+                                <li class="ml-[20px]">ABOUT SEEDRA</li>
+                            </a>
+                            <a href="./pages/Our Blog/Our.html">
 
+                                <li class="ml-[20px]">OUR BLOG</li>
+                            </a>
+                            <a href="./pages/Contacts/Contacta.html">
+
+                                <li class="ml-[20px]">CONTACTS</li>
+                            </a>
+                            
+                            
+                            
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex pl-[20px]">
+            <img src="./img/kard.svg" alt="" class="pl-[30px]">
+            <img src="./img/kard.svg" alt="" class="pl-[20px]">
+                </div>
+                <div class="flex rounded-3xl w-[300px] h-[40px] bg-white border-[2px]">
+                    <div class="pt-[8px] pl-[20px]">
+                        <img src="./img/kard.svg" alt="">
+                    </div>
+                    <div class=" pt-[5px]  text-[20px]">
+                        <input class="placeholder:text-slate-40 outline-none w-[250px]" type="text" placeholder=" Search">
+                    </div>
+                </div>
+                <div class="flex pr-[20px]">
+                    <img src="./img/kard.svg" alt="" class="pr-[20px]">
+                    <img src="./img/kard.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
     <section class="products"></section>
     <section class="baner"></section>
     <section class="section nuri"></section>
